@@ -1,3 +1,27 @@
-<h1>
-	this is the home page!!
-</h1>
+<%-include("partials/header.ejs")%>
+
+<div class="jumbotron pt-4 mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<h1 class="display-4 mt-4">Trello lets you work more collaboratively and get more done.</h1>
+			  	<p class="lead pt-4">Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.</p>
+			</div>
+			<div class="col-6">
+				<img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/308998dcb3ed5ab3d01217a4d24ffa03/hero-a.svg">
+			</div>
+		</div>
+		
+	<form class="form-inline">
+			<div class="form-group">
+			<input type="email" class="form-control" name="email" placeholder="Enter Email here!!">			
+			</div>
+			<a class="btn btn-success btn-lg py-1" href="#" role="button">Sign up-it's free</a>
+
+		</form>  		
+		
+	</div>
+  </div>
+
+
+<%-include("partials/footer.ejs")%>
